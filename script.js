@@ -18,21 +18,6 @@ function createGrid(side){
     }
 }
 
-/*
-const a = 6;
-
-for (i = 1; i <= a ** 2; i++) {
-    let square = document.createElement("div")
-    square.setAttribute('class', 'card')
-    square.style.width = `${100/a}%`
-    square.style.height = `${100/a}%`
-    grid.appendChild(square)
-    square.addEventListener("mouseover", () => {
-        square.style.backgroundColor = "black"
-    })
-}
-*/
-
 function reset(){
     const pixels = document.querySelectorAll(".card")
     pixels.forEach((pixel) => {
